@@ -42,7 +42,7 @@ if __name__ == '__main__':
             send_new_posts(mes)
             LAST_M = mes
             LAST_MES = LAST_M.find_all("td")[1].find("a")
-        time.sleep(2)
+        #time.sleep(2)
 
 
 
